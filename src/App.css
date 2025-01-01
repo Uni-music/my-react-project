@@ -1,0 +1,120 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  background-image: url('./background.jpg'); /* Background image from public folder */
+  background-size: cover; /* Ensures the image covers the full screen */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  min-height: 100vh; /* Ensures the body takes the full height of the viewport */
+  display: flex;
+  flex-direction: column; /* Aligns items vertically */
+  justify-content: center;
+  align-items: center;
+  color: white; /* Text color */
+}
+
+.heading {
+  font-size: 80px; /* Font size for the heading */
+  text-align: center;
+  padding: 20px;
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20241025/pngtree-vibrant-colorful-nebula-in-deep-space-stunning-cosmic-with-brilliant-colors-image_16450086.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* Makes the text itself show the image */
+  background-clip: text;
+  text-fill-color: transparent; /* Makes text transparent on all supported browsers */
+  margin-bottom: 20px; /* Adds spacing below the heading */
+}
+
+.paragraph {
+  font-size: 1.5rem; /* Adjusted font size for readability */
+  line-height: 1.6; /* Better spacing for paragraphs */
+  text-align: center;
+  background-image: url('https://thumbs.dreamstime.com/b/space-background-color-nebula-shining-stars-stardust-abstract-futuristic-backdrop-realistic-colorful-galaxy-brochure-179087704.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* Makes the text itself show the image */
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 20px 0; /* Adds spacing above and below the paragraph */
+}
+
+/* Song Section Styles */
+.song {
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  color: #ffffff; /* White text */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for a floating effect */
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.songtitle {
+  font-size: 2rem; /* Reduced font size for better balance */
+  color: #ffccff; /* Soft pastel pink for a gentler effect */
+  text-shadow: 1px 1px 3px #8b008b, 0px 0px 10px #ff69b4; /* Subtle glowing effect */
+  margin-bottom: 20px; /* Adds some space below the title */
+  text-align: center; /* Keeps the title centered */
+  font-weight: bold; /* Keeps it bold but not overpowering */
+  border-bottom: 2px solid #ff69b4; /* Thin line for subtle emphasis */
+  padding-bottom: 5px; /* Space between text and underline */
+}
+
+/* Verse and Chorus Styles */
+.song-verse, .song-chorus {
+  margin: 15px 0;
+  padding: 10px;
+  border-left: 4px solid #8b008b; /* Highlighted border for cosmic feel */
+  background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+  border-radius: 10px;
+}
+
+/* Highlight for Verse and Chorus Labels */
+.song-verse strong, .song-chorus strong {
+  color: #00FFFF; /* Aqua for verse and chorus labels */
+  text-transform: uppercase; /* Uppercase for emphasis */
+  letter-spacing: 1px;
+}
+
+/* Paragraph Text */
+.song-verse p, .song-chorus p {
+  line-height: 1.6; /* Better readability */
+  font-size: 1.1rem;
+}
+
+/* Outro Style with Pink and Purple Gradient Border */
+.song-verse:last-of-type {
+  font-size: 1.2rem; /* Keeps the size consistent with other verses */
+  font-style: italic; /* Adds an emotive touch */
+  color: #ffccff; /* Soft pastel pink for a dreamy effect */
+  text-shadow: 1px 1px 2px #8b008b, 0px 0px 5px #ff69b4; /* Subtle pink glow */
+  padding: 10px;
+  border-top: 2px dashed #ff69b4; /* Dashed border for separation and emphasis */
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.contact a {
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
